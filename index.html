@@ -6,13 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HBO Max</title>
     <style>
+
+
      #hboLogo {
         display: flex;
         flex-direction: column;
     }
+
     .site-1{
+        margin-left: 94px;
+        margin-top: 55px;
+        
+    }
+
+    .site-1 h1{
+        font-family: 'Times New Roman';
+        font-weight: 700;
+        font-size: 54px;
+    }
+
+    .site-1 p {
+        font-family: 'Times New Roman';
+        font-weight: 400;
+        font-size: 33px;
+    }
+
+    .site-1 #h2 {
+        font-family: 'Times New Roman';
+        font-weight: 400;
+        font-size: 33px;
+    }
+
+    .site-1 h3 {
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;    
+    }
+
+    .botoes1 {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 105px;
+        height: 74px;
+        border: 1px solid black;
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+
         margin-left: 50px;
-        margin-top: 50px;
+        
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        
+    }
+    .inp {
+        padding: 15;
+        height: 53px;
+        width:  566px;
+    }
+    .botoes2 {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 404px;
+        height: 55px;
+        border: 1px solid black;
+        border-radius: 5px;
+        align-items: center;
+        text-align: center;
+       
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+
     }
     </style>
 
@@ -22,21 +96,21 @@
     <img id="hboLogo" src="hboLogo.svg">
 
     <h1>Entrar</h1>
-    <p>Você tem uma conta HBO Max?</p><br>
+    <p id="h2">Você tem uma conta HBO Max?</p>
 
-    <p>E-mail</p>
-    <input type="email" name="email">
+    <p id="h2">E-mail</p>
+    <input class="inp" type="email" name="email">
     <br>
     <p>Senha</p>
-    <input type="text" name="senha">
+    <input class="inp" type="text" name="senha">
     <br>
     <br>
-    <input type="submit" name="Entrar" value="Entrar">
+    <input class="botoes1" type="submit" name="Entrar" value="Entrar">
 
     <h3>Você acessa a HBO Max por um provedor de TV,<br>
          de internet ou celular?</h3>
 
-    <button>Entrar como provedor</button> 
+         <input class="botoes2" type="submit" name="Entrar" value="Entrar como provedor">
     </div>
 </body>
 </html>
